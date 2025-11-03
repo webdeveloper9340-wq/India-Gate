@@ -2292,7 +2292,7 @@ textarea.input-field {
   background: url('../images/facebook.png') no-repeat right center / 24px;
   width: fit-content;
   padding-right: 34px;
-  font-size: 0px;
+  /* font-size: 0px; */
 }
 
 .social-media-wrap a.instagram {
@@ -2307,14 +2307,6 @@ textarea.input-field {
 .social-media-wrap a.g-map {
   background: url('../images/location.png') no-repeat right center / 24px;
 }
-
-.social-media-wrap a::before {
-  content: '';
-  width: 24px;
-  height: 24px;
-  position: absolute;
-}
-
 
 
 /*-----------------------------------*\
