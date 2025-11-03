@@ -1067,7 +1067,7 @@ body.nav-active {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.70);
+  background: rgba(0, 0, 0, 0.40);
   pointer-events: none;
 }
 
@@ -2288,7 +2288,32 @@ textarea.input-field {
   text-decoration: underline;
 }
 
+.social-media-wrap a {
+  background: url('../images/facebook.png') no-repeat right center / 24px;
+  width: fit-content;
+  padding-right: 34px;
+  font-size: 0px;
+}
 
+.social-media-wrap a.instagram {
+  background: url('../images/instagram.png') no-repeat right center / 24px;
+}
+.social-media-wrap a.twitter {
+  background: url('../images/twitter.png') no-repeat right center / 24px;
+}
+.social-media-wrap a.youtube {
+  background: url('../images/youtube.png') no-repeat right center / 24px;
+}
+.social-media-wrap a.g-map {
+  background: url('../images/location.png') no-repeat right center / 24px;
+}
+
+.social-media-wrap a::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
 
 
 
